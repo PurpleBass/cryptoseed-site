@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home · CryptoSeed</title>
+<meta name="description" content="Home for CryptoSeed">
+<link rel="icon" href="./assets/icon.png">
+<style>
+  :root { --accent: #2E6B4F; --bg: #fbfbfd; --fg: #1d1d1f; --muted: #6e6e73; --card: #fff; --line: #e5e5ea; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #000; --fg: #f5f5f7; --muted: #a1a1a6; --card: #1c1c1e; --line: #38383a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+  header { border-bottom: 1px solid var(--line); background: var(--card); }
+  .bar { max-width: 760px; margin: 0 auto; padding: 14px 20px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 600; color: var(--fg); text-decoration: none; }
+  .brand img { width: 32px; height: 32px; border-radius: 8px; }
+  nav { margin-left: auto; display: flex; gap: 18px; font-size: 15px; }
+  nav a { color: var(--muted); text-decoration: none; }
+  nav a:hover, nav a[aria-current="page"] { color: var(--fg); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 20px 64px; }
+  h1 { font-size: 36px; line-height: 1.15; margin: 0 0 6px; letter-spacing: -0.02em; }
+  h2 { font-size: 22px; margin: 36px 0 8px; }
+  h3 { font-size: 18px; margin: 24px 0 4px; }
+  .meta { color: var(--muted); font-size: 15px; margin-bottom: 28px; }
+  .summary { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 12px; padding: 16px 20px; margin: 20px 0; }
+  a { color: var(--accent); }
+  ul { padding-left: 22px; }
+  details { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 18px; margin: 10px 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  .button { display: inline-block; background: var(--accent); color: #fff; padding: 10px 20px; border-radius: 999px; text-decoration: none; font-weight: 600; }
+  footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  footer .bar { justify-content: space-between; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="brand" href="./"><img src="./assets/icon.png" alt="">CryptoSeed</a>
+    <nav><a href="./privacy/">Privacy</a><a href="./terms/">Terms</a><a href="./support/">Support</a></nav>
+  </div>
+</header>
+<main>
+<div style="text-align:center;padding:24px 0"><img src="./assets/icon.png" alt="CryptoSeed icon" width="128" height="128" style="border-radius:28px">
+<h1 style="margin-top:20px">CryptoSeed</h1><p class="meta" style="font-size:20px">Local, user-controlled cryptography for your iPhone.</p>
+<p>Encrypt and sign text and files, manage keys and identities, generate two-factor codes, and exchange keys over NFC, QR or a direct nearby transfer. Everything runs on your device with Apple CryptoKit, with no servers, no accounts and no analytics.</p>
+<p><a class="button" href="#" aria-disabled="true">Coming soon to the App Store</a></p></div>
+<h2>Features</h2><ul>
+<li><b>Encryption</b> for text and files with symmetric keys and X25519 identities, plus post-quantum X-Wing on iOS 26.</li>
+<li><b>Digital signatures</b> with Ed25519 and ML-DSA-65.</li>
+<li><b>Trusted contacts</b> and public-key verification via QR codes and NFC tags.</li>
+<li><b>Authenticator</b> for offline TOTP / HOTP two-factor codes.</li>
+<li><b>Private Transfer</b>: direct, encrypted, nearby device-to-device exchange.</li>
+<li><b>Shortcuts</b> actions for automation.</li></ul>
+<p><a href="./privacy/">Privacy Policy</a> · <a href="./terms/">Terms of Use</a> · <a href="./support/">Support</a></p>
+</main>
+<footer>
+  <div class="bar">
+    <span>© 2026 CryptoSeed</span>
+    <span><a href="./privacy/">Privacy</a><a href="./terms/">Terms</a><a href="./support/">Support</a></span>
+  </div>
+</footer>
+</body>
+</html>
